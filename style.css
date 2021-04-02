@@ -74,3 +74,14 @@ body {
   padding: 0px;
   margin: 0px;
 }
+@media screen and (max-width: 375px) {
+  .container {
+    background: url(images/bg-pattern-top.svg) -100px -200px no-repeat,
+      url(images/bg-pattern-bottom.svg) 200px 300px no-repeat;
+    background-size: 300px;
+  }
+  .card {
+    width: 300px;
+    margin: 20% auto;
+  }
+}
